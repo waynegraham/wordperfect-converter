@@ -1,17 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    childprocess (0.9.0)
-      ffi (~> 1.0, >= 1.0.11)
-    ffi (1.9.23)
-    poleica (0.10.4)
-      childprocess
+    ffi (1.10.0)
+    libreconv (0.9.1)
+      spoon
+    spoon (0.0.6)
+      ffi
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  poleica
+  libreconv
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
